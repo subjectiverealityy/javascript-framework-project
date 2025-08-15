@@ -7,9 +7,9 @@ export default function HeaderSection() {
     <nav className="flex gap-[40px] items-center">
       <Logo />
       <ul className="list-none flex gap-[20px]">
-        <NavItem name="Product" />
-        <NavItem name="Resources" />
-        <NavItem name="Prices" />
+        <NavItem name="Product" items={["One", "Two", "Three",]} />
+        <NavItem name="Resources" items={["Four", "Five", "Six",]} />
+        <NavItem name="Prices" items={["Seven", "Eight", "Nine",]} />
       </ul>
     </nav>
     <div className="items-center flex gap-[20px]">
